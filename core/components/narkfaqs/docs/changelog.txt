@@ -1,0 +1,13 @@
+Changelog file for NarkFaqs component.
+
+NarkFaqs 1.1
+====================================
+- Updates for Revo 2.2
+
+NarkFaqs 1.0
+====================================
+- Updating text, ready to build
+- Added default properties to NarkFaqs snippet in build
+- Fixes to narkfaqs class
+- Fixed bugs with build, updated readme
+- Initial commit
