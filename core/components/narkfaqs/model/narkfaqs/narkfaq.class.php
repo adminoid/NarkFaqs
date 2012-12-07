@@ -13,7 +13,7 @@ class NarkFaq extends xPDOSimpleObject {
         /* set createdon/editedon */
         $now = new DateTime();
         $type = $this->isNew() ? 'created' : 'edited';
-        $this->set($type.'on',$now->format('Y-m-d h:i:s'));
+        $this->set($type.'on',$now->format('Y-m-d H:i:s'));
         if ($this->xpdo instanceof modX && $this->xpdo->user) {
             $this->set($type.'by',$this->xpdo->user->get('id'));
         }
